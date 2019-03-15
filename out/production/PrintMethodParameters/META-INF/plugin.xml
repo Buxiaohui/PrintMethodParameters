@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>com.baidu.PrintMethodParameters</id>
+    <name>PrintMethodParameters</name>
+    <version>1.0</version>
+    <vendor email="moyinghui@yeah.net" url="https://github.com/Buxiaohui">Moyinghui</vendor>
+
+    <description><![CDATA[
+      fi
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Implemented the function of printing method parameters
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <group id="PrintMethodParameters.Menus" text="PrintMethodParameters" description="PrintMethodParameters haha!">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="PrintMethodParameters.button" class="print.PrintMethodParametersAction" text="print parameters"
+                    description="PrintMethodParameters" keymap="shift meta P"/>
+        </group>
+    </actions>
+
+</idea-plugin>
