@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eac4e59b-ad04-4363-a26c-2d4f360008c7" name="Default Changelist" comment="" />
+    <list default="true" id="eac4e59b-ad04-4363-a26c-2d4f360008c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/print_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/print_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/print/MethodUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/print/PrintMethodParametersOnEditorAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/print/PrintMethodParametersSingleAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrintMethodParameters.jar" beforeDir="false" afterPath="$PROJECT_DIR$/PrintMethodParameters.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PrintMethodParameters/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PrintMethodParameters/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PrintMethodParameters/print/MethodBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PrintMethodParameters/print/MethodBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/print/MethodBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/print/MethodBean.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,35 +62,52 @@
     <session id="-606511402">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="18" />
-          <entry key="JAVA" value="27" />
-          <entry key="XML" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="38" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2294" />
-          <entry key="XML" value="91" />
+          <entry key="JAVA" value="3128" />
+          <entry key="Markdown" value="198" />
+          <entry key="XML" value="156" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+            <state relative-caret-position="330">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about/about.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -84,40 +115,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/print/PrintMethodParametersAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+            <state relative-caret-position="520">
+              <caret line="105" selection-start-line="92" selection-start-column="20" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3866#3867#0" expanded="true" />
-                <element signature="e#3922#3923#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/intellij-community/java/java-psi-api/src/com/intellij/psi/PsiCodeBlock.java">
+        <entry file="file://$PROJECT_DIR$/src/print/PrintMethodParametersSingleAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/intellij-community/platform/core-api/src/com/intellij/psi/PsiElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5767">
-              <caret line="123" column="13" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/intellij-community/java/java-psi-api/src/com/intellij/psi/PsiJavaParserFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="170" column="15" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="15" />
+            <state relative-caret-position="225">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -125,53 +136,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/print/MethodBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+            <state relative-caret-position="600">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/intellij-community/java/java-psi-api/src/com/intellij/psi/PsiType.java">
+        <entry file="file://$PROJECT_DIR$/src/print/MethodUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-721">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="180">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
-                <element signature="e#4295#4296#0" expanded="true" />
-                <element signature="e#4332#4333#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/intellij-community/java/java-psi-api/src/com/intellij/psi/PsiParameterList.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/com/sun/org/apache/xalan/internal/xsltc/DOMEnhancedForDTM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/javax/swing/JList.java">
+        <entry file="file://$USER_HOME$/intellij-community/platform/platform-api/src/com/intellij/openapi/editor/actionSystem/EditorActionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="2292" column="19" selection-start-line="2292" selection-start-column="19" selection-end-line="2292" selection-end-column="19" />
+            <state relative-caret-position="1320">
+              <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
+        <entry file="file://$USER_HOME$/intellij-community/platform/core-api/src/com/intellij/psi/PsiElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            <state relative-caret-position="303">
+              <caret line="163" column="18" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -181,8 +191,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Action" />
         <option value="Class" />
+        <option value="Action" />
       </list>
     </option>
   </component>
@@ -198,11 +208,16 @@
       <find>PsiElementFactory</find>
       <find>logPsiCodeBlock</find>
       <find>getParametersLogStr</find>
+      <find>JavaPsiFacade</find>
       <find>logPsiCodeBlock1</find>
+      <find>offset</find>
     </findStrings>
     <replaceStrings>
       <replace>stringBuffer.append</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -219,9 +234,14 @@
         <option value="$PROJECT_DIR$/src/sd/PrintMethodParameters.java" />
         <option value="$PROJECT_DIR$/src/sd/PrintMethodParametersAction.java" />
         <option value="$PROJECT_DIR$/src/print/ItemProvider.java" />
+        <option value="$PROJECT_DIR$/src/print/PrintMethodParametersOnEditorAction.java" />
         <option value="$PROJECT_DIR$/src/print/PrintMethodParametersAction.java" />
+        <option value="$PROJECT_DIR$/src/print/MethodUtils.java" />
         <option value="$PROJECT_DIR$/src/print/MethodBean.java" />
+        <option value="$PROJECT_DIR$/src/print/PrintMethodParametersSingleAction.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/about.md" />
+        <option value="$PROJECT_DIR$/about/about.md" />
       </list>
     </option>
   </component>
@@ -233,22 +253,29 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
+    <option name="x" value="320" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="976" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
               <item name="PrintMethodParameters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PrintMethodParameters" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
@@ -272,101 +299,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="print" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="openapi" type="462c0819:PsiDirectoryNode" />
-              <item name="actionSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PrintMethodParameters" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IntelliJ IDEA Community Edition IC-182.4323.46 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="platform-impl.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="intellij" type="462c0819:PsiDirectoryNode" />
-              <item name="ide" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="gotoByName" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,8 +311,8 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="printmethodparameters" />
-    <property name="SearchEverywhereHistoryKey" value="PsiCla&#9;PSI&#9;JAVA://com.intellij.psi.PsiClass" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552620459812" />
+    <property name="SearchEverywhereHistoryKey" value="getElementBy&#9;PSI&#9;JAVA://com.sun.org.apache.xalan.internal.xsltc.DOMEnhancedForDTM#getElementById&#10;PsiCla&#9;PSI&#9;JAVA://com.intellij.psi.PsiClass" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552880353608" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -383,7 +320,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/about" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="print" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/about" />
       <recent name="$PROJECT_DIR$/src/print" />
     </key>
   </component>
@@ -442,10 +386,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20500532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23748474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,10 +403,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.28586388" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7015707" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31675127" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.328934" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32879582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -477,20 +421,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/MethodPrint/src/method/PrintMethodAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/editor/Editor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnActionEvent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -582,13 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/print/ItemProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/print/ItemProvider.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -642,10 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="52" column="63" lean-forward="true" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
-          <folding>
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,10 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-721">
           <caret line="28" column="29" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#4295#4296#0" expanded="true" />
-            <element signature="e#4332#4333#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -730,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/intellij-community/platform/core-api/src/com/intellij/psi/PsiElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5767">
-          <caret line="123" column="13" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/intellij-community/java/java-psi-api/src/com/intellij/psi/PsiCodeBlock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -744,34 +653,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/print/MethodBean.java">
+    <entry file="file://$PROJECT_DIR$/src/print/asd.java" />
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/print/PrintMethodParametersOnEditorAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/intellij-community/platform/editor-ui-api/src/com/intellij/openapi/editor/CaretModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/intellij-community/platform/core-api/src/com/intellij/psi/PsiFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/intellij-community/platform/editor-ui-api/src/com/intellij/openapi/editor/Editor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5925">
+          <caret line="416" column="40" selection-start-line="416" selection-start-column="23" selection-end-line="416" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/com/sun/org/apache/xalan/internal/xsltc/DOMEnhancedForDTM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/intellij-community/platform/platform-api/src/com/intellij/openapi/editor/actionSystem/EditorActionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/intellij-community/platform/core-api/src/com/intellij/psi/PsiElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="163" column="18" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/print/PrintMethodParametersAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        <state relative-caret-position="520">
+          <caret line="105" selection-start-line="92" selection-start-column="20" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3866#3867#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/print/MethodUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/print/MethodBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/print/PrintMethodParametersSingleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/print/zxc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="64" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/print_1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/about.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

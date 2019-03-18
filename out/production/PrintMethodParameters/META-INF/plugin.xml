@@ -5,7 +5,7 @@
     <vendor email="moyinghui@yeah.net" url="https://github.com/Buxiaohui">Moyinghui</vendor>
 
     <description><![CDATA[
-      fi
+      在方法下面生成log，打印方法名及参数列表
     ]]></description>
 
     <change-notes><![CDATA[
@@ -30,7 +30,14 @@
         <group id="PrintMethodParameters.Menus" text="PrintMethodParameters" description="PrintMethodParameters haha!">
             <add-to-group group-id="MainMenu" anchor="last"/>
             <action id="PrintMethodParameters.button" class="print.PrintMethodParametersAction" text="print parameters"
-                    description="PrintMethodParameters" keymap="shift meta P"/>
+                    description="PrintMethodParameters">
+                <keyboard-shortcut keymap="$default" first-keystroke="shift meta T"></keyboard-shortcut>
+            </action>
+            <action id="PrintMethodParametersSingleAction.button" class="print.PrintMethodParametersSingleAction"
+                    text="print parameters at cut pos"
+                    description="PrintMethodParameters">
+                <keyboard-shortcut keymap="$default" first-keystroke="shift meta Y"></keyboard-shortcut>
+            </action>
         </group>
     </actions>
 
